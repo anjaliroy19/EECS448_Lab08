@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+	<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-	<img src="Images/icecream.png" id="images" width=750 height=600><br>
-	<button id="previous" onclick="movePrevious()">previous</button>
-	<button id="next" onclick="moveNext()">next</button>
+	<img src="Images/icecream.png" id="img" width=750 height=600 class="center"><br>
+	<button id="previous" onclick="movePrevious()" class="center" >previous</button>
+	<button id="next" onclick="moveNext()" class="center">next</button>
+	
 </body>
+	
 <script type="text/javascript">
+
 	let images = ["icecream.png", "pizza.png", "picnic.png", "dessert.png", "macncheese.png", "nachos.png", "crossiant.png", "longpizza.png"];
 	var input = 0;
 	let img = document.getElementById("img");
 
-	function movePrevious() {
-		input += Images.length - 1;
-		input %= Images.length;
 
+	function movePrevious() {
+		input += images.length - 1;
+		input %= images.length;
 		img.src = "Images/" + images[input];
 	}
+
 	function moveNext() {
 		input += 1;
 		input %= images.length;
-
 		img.src = "Images/" + images[input];
 	}
 </script>

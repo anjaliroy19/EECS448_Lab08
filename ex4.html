@@ -11,14 +11,19 @@
 		<label for="red">Red Color</label>
 		<input type="number" name="red" id="red" value=255><br>
 
+
 		<label for="green">Green Color</label>
 		<input type="number" name="green" id="green" value=255><br>
+
 
 		<label for="blue">Blue Color</label>
 		<input type="number" name="blue" id="blue" value=255><br>
 
+
 		<label for="width">Width Value</label>
 		<input type="number" name="width" id="width" value=0>
+
+
 	</div>
 	
 	<div>
@@ -26,11 +31,15 @@
 		<label for="red_color">Red Color</label>
 		<input type="number" name="red_color" id="red_color" value=255><br>
 
+
 		<label for="green_color">Green Color</label>
 		<input type="number" name="green_color" id="green_color" value=255><br>
 
+
 		<label for="blue_color">Blue Color</label>
 		<input type="number" name="blue_color" id="blue_color" value=255>
+
+
 	</div>
 
 	<button onclick="changeStyle()">style</button>
@@ -46,13 +55,19 @@
 		let blue = document.getElementById("blue").value;
 		let width = document.getElementById("width").value;
 
+
 		input.style.border = width + "px solid rgb(" + red + ", " + green + ", " + blue + ")";
+
+
 
 		let backRed = document.getElementById("red_color").value;
 		let backGreen = document.getElementById("green_color").value;
 		let backBlue = document.getElementById("blue_color").value;
 
+
 		input.style.backgroundColor = "rgb(" + backRed + ", " + backGreen + ", " + backBlue + ")";
+
+
 	}
 </script>
 </html>

@@ -7,6 +7,7 @@ html {
 	padding: 0;
 }
 
+
 body {
 
 	height: 100%;
@@ -21,11 +22,13 @@ body {
 	background-attachment: fixed;
 }
 
+
 h1 {
 	padding: 0;
 	margin: 4pt 0pt;
 	font-size: 22pt;
 }
+
 
 .bio {
 	background-color: #4b87bf;
@@ -37,6 +40,7 @@ h1 {
 	padding: 5pt 15pt;
 }
 
+
 iframe {
 	display: block;
 	margin: 0 auto;
@@ -46,6 +50,7 @@ a {
 	color: #333333;
 	text-decoration: none;
 }
+
 
 a:hover {
 	color: #879bad;
@@ -61,6 +66,7 @@ a:hover {
     margin: 0 auto;
     margin-top: 30px;
 }
+
 .pic {
 	font-family: 'Roboto', san-serif;
 	font-size: 16pt;
@@ -68,5 +74,12 @@ a:hover {
 	margin-top: 50px;
 	margin-left: 30%;
 	height: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 

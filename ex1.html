@@ -16,13 +16,13 @@
 		var out = "";
 		<!-- verify password inputs -->
 		if (password2.value.length < 8 || password1.value.length < 8) {
-			out += "Password is too short! (Minimum 8 characters)\n";
+			out += "PASSWORD IS TOO SHORT! YOU NEED A MINIMUM OF 8 CHARACTERS.\n";
 		}
 		if (password1.value !== password2.value) {
-			out += "Passwords entered don't match!\n";
+			out += "PASSWORDS ENTERED DON'T MATCH!\n";
 		} 
 		if (out === "") {
-			out += "Passwords match!\n"
+			out += "PASSWORDS MATCH!\n"
 		}
 
 		alert(out);
